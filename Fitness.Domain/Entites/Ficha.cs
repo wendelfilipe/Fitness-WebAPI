@@ -9,35 +9,33 @@ namespace Fitness.Domain.Entites
     public sealed class Ficha : Entity
     {
         public string Name { get; private set; }
-        
         public int Idade { get; private set; }
-        
         public double Peso { get; private set; }
-        
         public double Altura { get; private set; }
-        
         public List<Exercicios> Exercicios { get; private set; }
+        public int Serie { get; private set; }
+        public int Repeticao { get; private set; }
         
-        public Ficha(int id, string name, int idade, double peso, double altura, List<Exercicios> exercicios, DateTime created_at, DateTime deleted_at, DateTime updated_at)
+        public Ficha(int id, string name, int idade, double peso, double altura, List<Exercicios> exercicios, int serie, int repeticao, DateTime created_at, DateTime deleted_at, DateTime updated_at)
         {
-            ValidateDomain(name, idade, peso, altura, exercicios, created_at, deleted_at, updated_at);
+            ValidateDomain(name, idade, peso, altura, exercicios, serie, repeticao, created_at, deleted_at, updated_at);
             DomainExceptionValidation.When(id <= 0, "Invalid id value");
             Id = id;
         }
 
-        public Ficha(string name, int idade, double peso, double altura, List<Exercicios> exercicios, DateTime created_at, DateTime deleted_at, DateTime updated_at)
+        public Ficha(string name, int idade, double peso, double altura, List<Exercicios> exercicios, int serie, int repeticao, DateTime created_at, DateTime deleted_at, DateTime updated_at)
         {
-             ValidateDomain(name, idade, peso, altura, exercicios, created_at, deleted_at, updated_at);
+             ValidateDomain(name, idade, peso, altura, exercicios, serie, repeticao, created_at, deleted_at, updated_at);
         }
 
-        public void Update(int id, string name, int idade, double peso, double altura, List<Exercicios> exercicios, DateTime created_at, DateTime deleted_at, DateTime updated_at)
+        public void Update(int id, string name, int idade, double peso, double altura, List<Exercicios> exercicios, int serie, int repeticao, DateTime created_at, DateTime deleted_at, DateTime updated_at)
         {
-            ValidateDomain(name, idade, peso, altura, exercicios, created_at, deleted_at, updated_at);
+            ValidateDomain(name, idade, peso, altura, exercicios, serie, repeticao, created_at, deleted_at, updated_at);
             DomainExceptionValidation.When(id <= 0, "Invalid id value");
             Id = id;
         }
 
-        public void ValidateDomain(string name, int idade, double peso, double altura, List<Exercicios> exercicios, DateTime created_at, DateTime deleted_at, DateTime updated_at)
+        public void ValidateDomain(string name, int idade, double peso, double altura, List<Exercicios> exercicios, int serie, int repeticao, DateTime created_at, DateTime deleted_at, DateTime updated_at)
         {
             DomainExceptionValidation.When(string.IsNullOrEmpty(name), "Invalid name, name is required");
             DomainExceptionValidation.When(name.Length < 5, "Invalid name, too short");
@@ -47,11 +45,17 @@ namespace Fitness.Domain.Entites
             DomainExceptionValidation.When(altura < 0.6, "Invalid altura, too short" );
             DomainExceptionValidation.When(altura > 2.51, "Invalid altura, too big");
             DomainExceptionValidation.When(exercicios.Any(), "Invalid exercicios, excicios required" );
+            DomainExceptionValidation.When(serie <= 0, "Invalid amount serie, required more then 0");
+            DomainExceptionValidation.When(serie > 8, "Invalid serie, too long");
+            DomainExceptionValidation.When(repeticao < 3, "Invalid repetion amount, too short");
+            DomainExceptionValidation.When(repeticao > 30, "Invalid repetion amount, too long");
             Name = name;
             Idade = idade;
             Peso = peso;
             Altura = altura;
             Exercicios = exercicios;
+            Serie = serie;
+            Repeticao = repeticao;
             Created_at = created_at;
             Deleted_at = deleted_at;
             Updated_at = updated_at;
