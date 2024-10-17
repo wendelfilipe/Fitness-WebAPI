@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Fitness.Infra.Ioc\Fitness.Infra.Ioc.csproj"/>
+  </ItemGroup>
+
 </Project>

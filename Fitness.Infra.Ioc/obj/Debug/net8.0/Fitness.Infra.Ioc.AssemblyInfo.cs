@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fitness.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6e05169fac921303b3da0454622da14f45620f54")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba21c80c771f64cb8ac187f0005acbd1a5a15bd6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fitness.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fitness.Infra.Ioc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

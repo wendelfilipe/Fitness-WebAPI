@@ -1,0 +1,12 @@
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\bin\Debug\net8.0\Fitness.Application.deps.json
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\bin\Debug\net8.0\Fitness.Application.dll
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\bin\Debug\net8.0\Fitness.Application.pdb
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.AssemblyInfoInputs.cache
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.AssemblyInfo.cs
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.csproj.CoreCompileInputs.cache
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.sourcelink.json
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.dll
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\refint\Fitness.Application.dll
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.pdb
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\ref\Fitness.Application.dll

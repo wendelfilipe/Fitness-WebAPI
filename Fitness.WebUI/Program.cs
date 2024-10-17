@@ -1,7 +1,11 @@
+using Fitness.Infra.Ioc;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+DependecyInjection.AddInfrastructure(builder.Services, builder.Configuration);
 
 var app = builder.Build();
 

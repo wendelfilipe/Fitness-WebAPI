@@ -10,6 +10,11 @@ namespace Fitness.Domain.Entites
     {
         public string Name { get; private set; }
 
+        public int FichaId { get; set; }
+
+        public Ficha Ficha { get; set; }
+        
+
         public Exercicios(string name, DateTime created_at, DateTime deleted_at, DateTime updated_at)
         {
             ValidateDomain(name, created_at, deleted_at, updated_at);
