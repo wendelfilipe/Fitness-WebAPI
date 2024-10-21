@@ -16,13 +16,13 @@ namespace Fitness.Infra.Data.Repositories
             this.context = context;
         }
 
-        public async Task Create(Ficha ficha)
+        public async Task CreateAsync(Ficha ficha)
         {
             context.Ficha.Add(ficha);
             await context.SaveChangesAsync();
         }
 
-        public async Task Delete(int id)
+        public async Task DeleteAsync(int id)
         {
             var ficha = await context.Ficha.FindAsync(id);
             if (ficha != null)
@@ -32,12 +32,12 @@ namespace Fitness.Infra.Data.Repositories
             }
         }
 
-        public async Task<Ficha> GetFichaById(int id)
+        public async Task<Ficha> GetFichaByIdAsync(int id)
         {
             return await context.Ficha.FindAsync(id);
         }
 
-        public async Task Update(Ficha ficha)
+        public async Task UpdateAsync(Ficha ficha)
         {
             context.Ficha.Update(ficha);
             await context.SaveChangesAsync();

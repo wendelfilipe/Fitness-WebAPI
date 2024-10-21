@@ -8,10 +8,10 @@ namespace Fitness.Application.Interfaces
 {
     public interface IFichaService
     {
-        Task Create(FichaDTO fichaDTO);
-        Task Delete(int id);
-        Task Update(FichaDTO fichaDTO);
-        Task<IEnumerable<FichaDTO>> GetAllFichas();
-        Task<FichaDTO> GetFichaById(int id);
+        Task CreateAsync(FichaDTO fichaDTO);
+        Task DeleteAsync(int id);
+        Task UpdateAsync(FichaDTO fichaDTO);
+        Task<IEnumerable<FichaDTO>> GetAllFichasAsync();
+        Task<FichaDTO> GetFichaByIdAsync(int id);
     }
 }

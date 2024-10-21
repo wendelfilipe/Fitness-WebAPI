@@ -9,27 +9,27 @@ namespace Fitness.Application.Services
 {
     public class ExerciciosService : IExerciciosService
     {
-        public Task Create(ExerciciosDTO exerciciosDTO)
+        public Task CreateAsync(ExerciciosDTO exerciciosDTO)
         {
             throw new NotImplementedException();
         }
 
-        public Task Delete(int id)
+        public Task DeleteAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<ExerciciosDTO>> GetAllExercicios()
+        public Task<IEnumerable<ExerciciosDTO>> GetAllExerciciosAsync()
         {
             throw new NotImplementedException();
         }
 
-        public Task<ExerciciosDTO> GetExercicioById(int id)
+        public Task<ExerciciosDTO> GetExercicioByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task Update(ExerciciosDTO exerciciosDTO)
+        public Task UpdateAsync(ExerciciosDTO exerciciosDTO)
         {
             throw new NotImplementedException();
         }

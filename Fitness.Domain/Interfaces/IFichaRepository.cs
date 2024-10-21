@@ -8,9 +8,9 @@ namespace Fitness.Domain.Interfaces
 {
     public interface IFichaRepository
     {
-        Task Create(Ficha ficha);
-        Task Update(Ficha ficha);
-        Task Delete(int id);
-        Task<Ficha> GetFichaById(int id);
+        Task CreateAsync(Ficha ficha);
+        Task UpdateAsync(Ficha ficha);
+        Task DeleteAsync(int id);
+        Task<Ficha> GetFichaByIdAsync(int id);
     }
 }

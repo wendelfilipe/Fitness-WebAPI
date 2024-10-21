@@ -9,27 +9,27 @@ namespace Fitness.Application.Services
 {
     public class FichaService : IFichaService
     {
-        public Task Create(FichaDTO fichaDTO)
+        public Task CreateAsync(FichaDTO fichaDTO)
         {
             throw new NotImplementedException();
         }
 
-        public Task Delete(int id)
+        public Task DeleteAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<FichaDTO>> GetAllFichas()
+        public Task<IEnumerable<FichaDTO>> GetAllFichasAsync()
         {
             throw new NotImplementedException();
         }
 
-        public Task<FichaDTO> GetFichaById(int id)
+        public Task<FichaDTO> GetFichaByIdAsync(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task Update(FichaDTO fichaDTO)
+        public Task UpdateAsync(FichaDTO fichaDTO)
         {
             throw new NotImplementedException();
         }

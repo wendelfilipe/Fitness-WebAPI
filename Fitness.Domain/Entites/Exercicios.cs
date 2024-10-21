@@ -10,7 +10,7 @@ namespace Fitness.Domain.Entites
     {
         public string Name { get; private set; }
 
-        public int FichaId { get; set; }
+        public int? FichaId { get; set; }
 
         public Ficha Ficha { get; set; }
         

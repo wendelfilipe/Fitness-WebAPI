@@ -8,10 +8,10 @@ namespace Fitness.Application.Interfaces
 {
     public interface IExerciciosService
     {
-        Task Create(ExerciciosDTO exerciciosDTO);
-        Task Delete(int id);
-        Task Update(ExerciciosDTO exerciciosDTO);
-        Task<IEnumerable<ExerciciosDTO>> GetAllExercicios();
-        Task<ExerciciosDTO> GetExercicioById(int id);
+        Task CreateAsync(ExerciciosDTO exerciciosDTO);
+        Task DeleteAsync(int id);
+        Task UpdateAsync(ExerciciosDTO exerciciosDTO);
+        Task<IEnumerable<ExerciciosDTO>> GetAllExerciciosAsync();
+        Task<ExerciciosDTO> GetExercicioByIdAsync(int id);
     }
 }
