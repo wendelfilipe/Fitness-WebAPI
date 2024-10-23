@@ -11,8 +11,8 @@ namespace Fitness.Application.Exercicio.Commands
     {
          public string Name { get; set; }
         public int FichaId { get; set; }
-        public DateTime Created_at { get; protected set; }
-        public DateTime Deleted_at{ get; protected set; }
-        public DateTime Updated_at { get; protected set; }
+        public DateTime Created_at { get; set; }
+        public DateTime Deleted_at{ get; set; }
+        public DateTime Updated_at { get; set; }
     }
 }

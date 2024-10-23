@@ -12,7 +12,7 @@ namespace Fitness.Domain.Entites
 
         public int? FichaId { get; set; }
 
-        public Ficha Ficha { get; set; }
+        public Ficha? Ficha { get; set; }
         
 
         public Exercicios(string name, DateTime created_at, DateTime deleted_at, DateTime updated_at)
