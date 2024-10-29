@@ -12,5 +12,6 @@ namespace Fitness.Domain.Interfaces
         Task UpdateAsync(Ficha ficha);
         Task DeleteAsync(int id);
         Task<Ficha> GetFichaByIdAsync(int id);
+        Task<IEnumerable<Ficha>> GetAllFichasAsync();
     }
 }

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Fitness.Domain.Entites;
 using Fitness.Domain.Interfaces;
 using Fitness.Infra.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Fitness.Infra.Data.Repositories
 {
@@ -30,6 +31,11 @@ namespace Fitness.Infra.Data.Repositories
                 context.Ficha.Remove(ficha);
                 await context.SaveChangesAsync();
             }
+        }
+
+        public async Task<IEnumerable<Ficha>> GetAllFichasAsync()
+        {
+            return await context.Ficha.ToListAsync();
         }
 
         public async Task<Ficha> GetFichaByIdAsync(int id)
