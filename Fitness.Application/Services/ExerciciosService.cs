@@ -2,36 +2,70 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Fitness.Application.DTOs;
+using Fitness.Application.Exercicio.Commands;
+using Fitness.Application.Exercicio.Queries;
 using Fitness.Application.Interfaces;
+using MediatR;
 
 namespace Fitness.Application.Services
 {
     public class ExerciciosService : IExerciciosService
     {
-        public Task CreateAsync(ExerciciosDTO exerciciosDTO)
+        private readonly IMediator mediator;
+        private readonly IMapper mapper;
+
+        public ExerciciosService(IMediator mediator, IMapper mapper)
         {
-            throw new NotImplementedException();
+            this.mediator = mediator;
+            this.mapper = mapper;
+        }
+        public async Task CreateAsync(ExerciciosDTO exerciciosDTO)
+        {
+            var exercicioCreateCommand = mapper.Map<ExercicioCreateCommand>(exerciciosDTO);
+            await mediator.Send(exercicioCreateCommand);
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            throw new NotImplementedException();
+            var exercicioDeleteCommand = new ExercicioDeleteCommand(id);
+            if(exercicioDeleteCommand == null)
+            {
+                throw new ApplicationException("error not exercicioDeleteCommand not found");
+            }
+            await mediator.Send(exercicioDeleteCommand);
         }
 
-        public Task<IEnumerable<ExerciciosDTO>> GetAllExerciciosAsync()
+        public async Task<IEnumerable<ExerciciosDTO>> GetAllExerciciosAsync()
         {
-            throw new NotImplementedException();
+            var getAllExerciciosQuery = new GetAllExerciciosQuery();
+            if(getAllExerciciosQuery == null)
+            {
+                throw new ApplicationException("error not found, getExercicioQuery not found");
+            }
+
+            var result = await mediator.Send(getAllExerciciosQuery);
+            return mapper.Map<IEnumerable<ExerciciosDTO>>(result);
         }
 
-        public Task<ExerciciosDTO> GetExercicioByIdAsync(int id)
+        public async Task<ExerciciosDTO> GetExercicioByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            var getExercicioByIdQuery = new GetExercicioByIdQuery(id);
+            if(getExercicioByIdQuery == null)
+                throw new ApplicationException("error not found, getExercicioByIdQuery not found");
+
+            var result = await mediator.Send(getExercicioByIdQuery);
+            return mapper.Map<ExerciciosDTO>(result);
         }
 
-        public Task UpdateAsync(ExerciciosDTO exerciciosDTO)
+        public async Task UpdateAsync(ExerciciosDTO exerciciosDTO)
         {
-            throw new NotImplementedException();
+            var exercicioUpdateCommand = mapper.Map<ExercicioUpdateCommand>(exerciciosDTO);
+            if(exercicioUpdateCommand == null)
+                throw new ApplicationException("error, exercicioUpdateCommando not found");
+
+            await mediator.Send(exercicioUpdateCommand); 
         }
     }
 }
