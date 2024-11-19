@@ -64,3 +64,4 @@ C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.WebUI\bin\Debug
 C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.WebUI\bin\Debug\net8.0\Fitness.Infra.Data.pdb
 C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.WebUI\obj\Debug\net8.0\Fitness.WebUI.csproj.AssemblyReference.cache
 C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.WebUI\obj\Debug\net8.0\Fitness..872B15E2.Up2Date
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.WebUI\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

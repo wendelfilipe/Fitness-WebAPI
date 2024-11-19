@@ -10,3 +10,7 @@ C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj
 C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\refint\Fitness.Application.dll
 C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.pdb
 C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\ref\Fitness.Application.dll
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\bin\Debug\net8.0\Fitness.Domain.dll
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\bin\Debug\net8.0\Fitness.Domain.pdb
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness.Application.csproj.AssemblyReference.cache
+C:\Users\wendelfilipe\Documents\projetos\fitness-backend\Fitness.Application\obj\Debug\net8.0\Fitness..28B44B90.Up2Date
