@@ -1,3 +1,4 @@
+using Fitness.Domain.Interfaces;
 using Fitness.Infra.Ioc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,7 +22,16 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+using (var serviceScope = app.Services.CreateAsyncScope())
+{
+    var services = serviceScope.ServiceProvider;
 
+    var seedUserRoleInitial = services.GetRequiredService<ISeedUserRoleInitial>();
+
+    seedUserRoleInitial.SeedRoles();
+    seedUserRoleInitial.SeedUsers();
+}
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
