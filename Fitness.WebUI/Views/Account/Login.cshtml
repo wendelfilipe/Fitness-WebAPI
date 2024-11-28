@@ -1,0 +1,31 @@
+@model Fitness.WebUI.ViewModels.LoginViewModel;
+
+<div class="d-flex justify-content-center">
+    <div class="col-md-3 ">
+        <form class="form-horizontal" asp-controller="Home" asp-action="Login" method="post">
+            <input type="hidden" asp-for="ReturnUrl" />
+            <div class="form-group">
+                <label asp-for="Email" class="col-md-2 control-label"></label>
+                <div>
+                    <input asp-for="Email" class="form-control"/>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="col-md-2 control-label"></label>
+                <div>
+                    <input asp-for="Email" class="form-control"/>
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group d-flex justify-content-center mt-2">
+                <div class="col-md-5">
+                    <button type="submit" class="btn btn-outline-dark">Log in</button>
+                </div>
+                <div class="col-md-5">
+                    <button type="submit" class="btn btn-outline-dark">Create</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
