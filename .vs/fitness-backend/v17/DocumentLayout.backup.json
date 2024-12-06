@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.webui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|solutionrelative:fitness.webui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.webui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|solutionrelative:fitness.webui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Fitness.WebUI\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Fitness.WebUI\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T18:53:20.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Fitness.WebUI\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Fitness.WebUI\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-05T18:50:49.007Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

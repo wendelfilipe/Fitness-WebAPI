@@ -46,3 +46,7 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.shadow-red {
+  box-shadow: 0 10px 20px rgba(255, 0, 0, 0.5);
+}
