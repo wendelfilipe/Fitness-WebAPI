@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.webui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|solutionrelative:fitness.webui\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3AB13D63-40AF-4663-A7DD-23E325BB38EB}|Fitness.Infra.Ioc\\Fitness.Infra.Ioc.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.infra.ioc\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB13D63-40AF-4663-A7DD-23E325BB38EB}|Fitness.Infra.Ioc\\Fitness.Infra.Ioc.csproj|solutionrelative:fitness.infra.ioc\\dependecyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.webui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|solutionrelative:fitness.webui\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{2CFCF1D0-5064-47EA-8060-3AEBA2D2B446}|Fitness.Application\\Fitness.Application.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.application\\services\\exerciciosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CFCF1D0-5064-47EA-8060-3AEBA2D2B446}|Fitness.Application\\Fitness.Application.csproj|solutionrelative:fitness.application\\services\\exerciciosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AB13D63-40AF-4663-A7DD-23E325BB38EB}|Fitness.Infra.Ioc\\Fitness.Infra.Ioc.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.infra.ioc\\dependencyinjectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AB13D63-40AF-4663-A7DD-23E325BB38EB}|Fitness.Infra.Ioc\\Fitness.Infra.Ioc.csproj|solutionrelative:fitness.infra.ioc\\dependencyinjectionapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75AAD6D3-4072-4E21-BA35-F4FEC4CB6B9F}|Fitness.API\\Fitness.API.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75AAD6D3-4072-4E21-BA35-F4FEC4CB6B9F}|Fitness.API\\Fitness.API.csproj|solutionrelative:fitness.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75AAD6D3-4072-4E21-BA35-F4FEC4CB6B9F}|Fitness.API\\Fitness.API.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75AAD6D3-4072-4E21-BA35-F4FEC4CB6B9F}|Fitness.API\\Fitness.API.csproj|solutionrelative:fitness.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|c:\\users\\wendelfilipe\\documents\\projetos\\fitness-backend\\fitness.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689555D4-E3A6-42E2-8F99-7D9994C7F396}|Fitness.WebUI\\Fitness.WebUI.csproj|solutionrelative:fitness.webui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Fitness.WebUI\\Views\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Register.cshtml",
-              "RelativeToolTip": "Fitness.WebUI\\Views\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T18:53:20.213Z",
+              "DocumentIndex": 1,
+              "Title": "ExerciciosService.cs",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.Application\\Services\\ExerciciosService.cs",
+              "RelativeDocumentMoniker": "Fitness.Application\\Services\\ExerciciosService.cs",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.Application\\Services\\ExerciciosService.cs",
+              "RelativeToolTip": "Fitness.Application\\Services\\ExerciciosService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwDMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T01:32:23.782Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Fitness.WebUI\\Views\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Views\\Account\\Login.cshtml",
-              "RelativeToolTip": "Fitness.WebUI\\Views\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-05T18:50:49.007Z",
+              "DocumentIndex": 0,
+              "Title": "DependecyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.Infra.Ioc\\DependecyInjection.cs",
+              "RelativeDocumentMoniker": "Fitness.Infra.Ioc\\DependecyInjection.cs",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.Infra.Ioc\\DependecyInjection.cs",
+              "RelativeToolTip": "Fitness.Infra.Ioc\\DependecyInjection.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAhwBQAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:38:35.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyInjectionAPI.cs",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.Infra.Ioc\\DependencyInjectionAPI.cs",
+              "RelativeDocumentMoniker": "Fitness.Infra.Ioc\\DependencyInjectionAPI.cs",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.Infra.Ioc\\DependencyInjectionAPI.cs",
+              "RelativeToolTip": "Fitness.Infra.Ioc\\DependencyInjectionAPI.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAACIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:37:08.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Program.cs",
+              "RelativeDocumentMoniker": "Fitness.WebUI\\Program.cs",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.WebUI\\Program.cs",
+              "RelativeToolTip": "Fitness.WebUI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:35:57.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Fitness.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.API\\appsettings.Development.json",
+              "RelativeToolTip": "Fitness.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-10T00:34:57.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.API\\Program.cs",
+              "RelativeDocumentMoniker": "Fitness.API\\Program.cs",
+              "ToolTip": "C:\\Users\\wendelfilipe\\Documents\\projetos\\fitness-backend\\Fitness.API\\Program.cs",
+              "RelativeToolTip": "Fitness.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:34:22.354Z",
               "EditorCaption": ""
             }
           ]
